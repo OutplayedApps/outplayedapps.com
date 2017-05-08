@@ -1,0 +1,33 @@
+// The function actually applying the offset
+function offsetAnchor() {
+  if (location.hash.length !== 0) {
+    //window.scrollTo(window.scrollX, window.scrollY - 100);
+    var body = $("html, body");
+body.stop().animate({scrollTop:window.scrollY-100}, '500', 'swing', function() { 
+   //alert("Finished animating");
+});
+
+  }
+}
+
+// Captures click events of all <a> elements with href starting with #
+$(document).on('click', 'a[href^="#"]', function(event) {
+  // Click events are captured before hashchanges. Timeout
+  // causes offsetAnchor to be called after the page jump.
+  window.setTimeout(function() {
+    offsetAnchor();
+  }, 0);
+});
+
+// Set the offset when entering page with hash present in the url
+window.setTimeout(offsetAnchor, 0);
+
+$(function() {
+    $("#shareIcons").jsSocials({
+    showLabel: false,
+        shareIn: "popup",
+    showCount: true,
+    shares: [
+        "email", "twitter", "facebook", "googleplus", "linkedin", "whatsapp"]
+});
+});
