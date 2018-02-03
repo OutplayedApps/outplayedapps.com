@@ -1,0 +1,159 @@
+     body { 
+    padding-bottom: 28px;
+    padding-top: 50px;
+    background-color: black;
+    }
+    body.admin-bar #wphead {
+       padding-top: 0;
+    }
+    body.admin-bar #footer {
+       padding-bottom: 28px;
+    }
+    #wpadminbar {
+        top: auto !important;
+        bottom: 0;
+    }
+    #wpadminbar .quicklinks .menupop ul {
+        bottom: 28px;
+    }
+    
+
+
+@media only screen and (max-width:768px) {
+  div.google {
+    padding-left: 0;
+  }
+
+body {
+  font-size: 80%;
+}
+
+.section-heading {
+    padding-top: 20px;
+}
+
+}
+
+@media only screen and (min-width:769px) {
+	.desktopMiddle {
+		margin-top: 10%:;
+	}
+}
+
+.img-portfolio {
+  border-radius: 50%;
+  width: 50%;
+}
+
+.team-social-icon i {
+  padding-right: 5px;
+}
+
+header {
+background-color: black;
+  background-image: url("../img/logo.png");
+  min-height: 450px;
+}
+header .header-content {
+  padding-top: 0px;
+}
+
+body {
+
+}
+
+#logo {
+  width: 100%;
+}
+
+p.white {
+  color: white !important;
+}
+
+.storeImg {
+  margin-bottom: 20px;
+  width: 200px;
+}
+
+.team-social-icon {
+  margin-bottom: 5vh;
+}
+
+body {
+
+}
+
+section {
+  background-color: white;
+  padding-top: 20px;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+section.noPaddingBottom {
+	padding-bottom: 10px;
+}
+
+.thumbnail {
+/*	background: none;
+	border: none;*/
+}
+
+.thumbnail.small {
+    padding: 20px
+}
+
+.navbar-default.affix {
+    background-color: #eee;
+}
+body > .container {
+  margin-top: 50px;
+}
+.iconRow .fa {
+    color: #000099;
+}
+.devShow, .lessonShow {
+    display:none;
+    text-align: left;
+}
+section {
+    padding: 20px 0;
+}
+.postDate {
+  text-align:right;
+}
+img.centerImg {
+  margin: auto;
+}
+
+.tychoImg {
+display: block;
+margin: 20px 0px;
+}
+
+a.externalLink {
+position: absolute;
+left: 0;
+display: block !important;
+}
+
+.thumbnail img {
+margin: auto;
+}
+
+
+#demo-device-ios {
+width: 467px;
+    height: 800px;
+    background: center top no-repeat url(https://ionicframework.com/img/devices-sprite.jpg);
+    background-size: 467px;
+    margin: 0 auto;
+text-align: center;
+}
+#demo-device-ios iframe {
+margin-top: 85px;
+    width: 320px;
+    height: 568px;
+}
